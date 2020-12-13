@@ -12,6 +12,7 @@ class Routes {
   private init() {
     this.router.get("/", userController.index);
     this.router.get("/:id", userController.show);
+    this.router.post("/login", userController.login);
     this.router.post("/create", userController.create);
   }
 }

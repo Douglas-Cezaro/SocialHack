@@ -28,6 +28,33 @@ export default {
     return res.json(UserView.renderMany(users));
   },
 
+  async login(req: Request, res: Response) {
+    const userRepository = getRepository(User);
+
+    const { email, password } = req.body;
+
+    const users = await userRepository.find({
+      where: [
+        {
+          email: email,
+          password: password,
+        },
+      ],
+    });
+
+    if (users.length > 0) {
+      return res.status(201).json({
+        status: "Success",
+        content: users,
+      });
+    } else {
+      return res.status(500).json({
+        status: "Error",
+        content: "Dados invalidos",
+      });
+    }
+  },
+
   async create(req: Request, res: Response) {
     const { name, email, password, contact, age, about } = req.body;
 
