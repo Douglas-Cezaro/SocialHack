@@ -24,7 +24,8 @@ O aplicativo **MINHA COMUNIDADE** é voltado para os indivíduos que moram na c
 
 A solução que o app trás para o problema de comunidades com uma infraestrutura econômica "fraca" e baixa comunicação entre os moradores é a possibilidade de cada morador explorar o potencial de abrir um negócio ou uma loja, para gerar o seu próprio dinheiro e assim fazer com que toda a economia da favela circule e se torne mais forte. O app também irá ajudar esse morador trabalhando com as informações de sua loja dentro do aplicativo, utilizando em recomendações e trazendo mais visibilidade. Assim como a divulgação na parte de lazer e eventos.
 
-Conseguimos realizar contato com a CUFA - Central Única das Favelas, onde nos deram um feedback positivo sobre o projeto, gravaram um vídeo elogiando o projeto e pontuando sua importância.
+Conseguimos realizar contato com a [**CUFA**](https://nodejs.org/en/) Central Única das
+Favelas, onde nos deram um feedback positivo sobre o projeto, gravaram um vídeo elogiando o projeto e pontuando sua importância.
 Durante o Hackathon fizemos o protótipo do aplicativo e começamos o desenvolvimento do código real finalizando a API e uma parte do Front end.
 
 Api desenvolvida em node utilizando express e typeorm, a parte mobile foi feita com react-native
