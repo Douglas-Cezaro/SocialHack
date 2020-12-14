@@ -27,6 +27,8 @@ A solução que o app trás para o problema de comunidades com uma infraestrutur
 Conseguimos realizar contato com a CUFA - Central Única das Favelas, onde nos deram um feedback positivo sobre o projeto, gravaram um vídeo elogiando o projeto e pontuando sua importância.
 Durante o Hackathon fizemos o protótipo do aplicativo e começamos o desenvolvimento do código real finalizando a API e uma parte do Front end.
 
+Api desenvolvida em node utilizando express e typeorm, a parte mobile foi feita com react-native
+
 # Tecnologias utilizadas 🧰
 
 - [**Node.js**](https://nodejs.org/en/)
@@ -51,3 +53,4 @@ Durante o Hackathon fizemos o protótipo do aplicativo e começamos o desenvolvi
 
 <img src="https://user-images.githubusercontent.com/53586466/102030690-7907b580-3d92-11eb-8f8f-b8d1322b2748.png" width="500px" />
 </h4>
+<h5>OBS: Não foi finalizado todas as funcionalidades do app, devido ao tempo, porém sua API já está preparada</h5>
