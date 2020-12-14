@@ -16,7 +16,7 @@
 
 # About 🧾
 
-Projeto desenvolvido durante o [**SocialHack**](<(https://socialhack.com.br/)>)
+Projeto desenvolvido durante o [**SocialHack**](https://socialhack.com.br/)
 
 O aplicativo **MINHA COMUNIDADE** é voltado para os indivíduos que moram na comunidade cuja finalidade é criar um rede de negócios criados por moradores da comunidade, girando a economia na própria comunidade. Nele os usuários poderão ver todas os serviços oferecidos pelos próprios vizinhos como costureira, mecânico, restaurante e ter conhecimento sobre eventos que aconteceram onde moram.
 
