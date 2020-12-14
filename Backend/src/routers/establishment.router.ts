@@ -16,6 +16,7 @@ class Routes {
   private init() {
     this.router.get("/", establishmentController.index);
     this.router.get("/:id", establishmentController.show);
+    this.router.get("/ratings/:id", establishmentController.rating);
     this.router.post(
       "/create",
       this.upload.array("images"),

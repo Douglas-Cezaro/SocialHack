@@ -4,10 +4,11 @@ import {
   PrimaryGeneratedColumn,
   OneToMany,
   JoinColumn,
+  ManyToOne,
 } from "typeorm";
 import Rating from "./rating.entity";
 import Image from "./image.entity";
-
+import Type from "./type.entity";
 @Entity("establishments")
 export default class Establishment {
   @PrimaryGeneratedColumn("increment")
@@ -43,4 +44,7 @@ export default class Establishment {
     cascade: ["insert", "update"],
   })
   ratings: Rating[];
+
+  @ManyToOne(() => Type, (type) => type.establishments)
+  type: Type;
 }

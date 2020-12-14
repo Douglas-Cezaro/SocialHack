@@ -1,5 +1,4 @@
 import Establishment from "../entity/establishment.entity";
-
 export default {
   render(establishment: Establishment) {
     return {

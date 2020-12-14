@@ -1,6 +1,6 @@
 import Establishment from "../entity/establishment.entity";
 import imagesView from "./ImagesView";
-import RatingView from "./RatingView";
+import typeView from "./TypeViewEstablishment";
 
 export default {
   render(establishment: Establishment) {
@@ -14,7 +14,7 @@ export default {
       contact: establishment.contact,
       instructions: establishment.instructions,
       images: imagesView.renderMany(establishment.images),
-      // ratings: RatingView.renderMany(establishment.ratings),
+      type: typeView.render(establishment.type),
     };
   },
 

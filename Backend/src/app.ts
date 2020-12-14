@@ -7,6 +7,7 @@ import errorHandler from "./errors/handler";
 import UserRouter from "./routers/user.router";
 import EstablishmentRouter from "./routers/establishment.router";
 import RatingRouter from "./routers/rating.router";
+import TypeRouter from "./routers/type.router";
 
 class App {
   public express: express.Application;
@@ -32,6 +33,7 @@ class App {
     this.express.use("/user", UserRouter);
     this.express.use("/establishment", EstablishmentRouter);
     this.express.use("/rating", RatingRouter);
+    this.express.use("/type", TypeRouter);
   }
 }
 
