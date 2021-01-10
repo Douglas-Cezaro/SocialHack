@@ -1,4 +1,4 @@
-# Next Level Week - Happy
+# Minha Comunidade - SocialHack
 
 <h4 align="center">
 
